@@ -166,10 +166,12 @@ audit_log
 ---
 
 ### MODELAGEM (Conceitual)
+<img width="2526" height="1785" alt="Conceptual" src="https://github.com/user-attachments/assets/f421c0b1-c111-4bee-b004-0f319ab22458" />
 
 
 ### MODELAGEM (Lógico)
 
+<img width="854" height="617" alt="Logico" src="https://github.com/user-attachments/assets/c4911347-cadc-4beb-bfd5-142f83f94590" />
 
 
 

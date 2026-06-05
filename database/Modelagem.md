@@ -8,25 +8,10 @@ Responsável pelo armazenamento dos dados dos clientes cadastrados.
 
 * id_cliente
 * nome
-* cpf
+* saldo_credito
 * email
 * telefone
 * data_cadastro
-
----
-
-## Administradores
-
-Responsável pelos usuários administrativos do sistema.
-
-### Principais atributos
-
-* id_admin
-* nome
-* email
-* senha_hash
-* nivel_acesso
-* ultimo_login
 
 ---
 
@@ -38,9 +23,9 @@ Tabela responsável pelos computadores da Lan House.
 
 * id_computador
 * nome
-* especificacoes
+* discricao
 * status
-* preco_hora
+* valor_hora
 
 ---
 
@@ -72,61 +57,13 @@ Armazena os produtos vendidos na Lan House.
 
 ---
 
-## Forma_pagamento
+## Vendas
+Obetem todas as vendas da lan house
 
-Responsável pelas formas de pagamento utilizadas.
-
-### Principais atributos
-
-* id_forma_pagamento
-* nome
-* descricao
-
-Exemplos:
-
-* PIX
-* Crédito
-* Débito
-* Dinheiro
-
----
-
-## Consumo
-
-Representa os produtos consumidos durante uma sessão.
-
-### Principais atributos
-
-* id_consumo
-* quantidade.
-* subtotal
-* data_consumo
-
----
-
-## Torneios
-
-Tabela responsável pelos campeonatos da Lan House.
-
-### Principais atributos
-
-* id_torneio
-* nome
-* jogo
-* data_torneio
-* premio
-* descricao
-
----
-
-## Inscricoes
-
-Tabela associativa entre clientes e torneios.
-
-### Principais atributos
-
-* id_inscricao
-* data_inscricao
+* id_venda
+* preco_unitario
+* quantidade
+* data_venda
 
 ---
 
@@ -153,15 +90,11 @@ Responsável pela auditoria do sistema.
 
 ```text
 clientes
-administradores
 computadores
 sessoes
 produtos
-forma_pagamento
-consumo
-torneios
-inscricoes
 audit_log
+Venda
 ```
 ---
 

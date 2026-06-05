@@ -58,7 +58,7 @@ Armazena os produtos vendidos na Lan House.
 ---
 
 ## Vendas
-Obetem todas as vendas da lan house
+Registra o consumo de produtos atrelado a uma sessão de uso.
 
 * id_venda
 * preco_unitario

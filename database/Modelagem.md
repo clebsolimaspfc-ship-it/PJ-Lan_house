@@ -94,7 +94,7 @@ computadores
 sessoes
 produtos
 audit_log
-Venda
+vendas
 ```
 ---
 

@@ -99,8 +99,7 @@ vendas
 ---
 
 ### MODELAGEM (Conceitual)
-<img width="2526" height="1785" alt="Conceptual_model_BRMW" src="https://github.com/user-attachments/assets/3ccaa1e9-4962-49c1-8e24-3e4811f0719a" />
-
+<img width="3509" height="2479" alt="Conceptual model - BRMW" src="https://github.com/user-attachments/assets/7a5800a2-027b-48e2-9b08-e86abe695930" />
 
 
 ### MODELAGEM (Lógico)
